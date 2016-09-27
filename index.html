@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Free Code Camp Melbourne - A Lightning Talk</title>
+
+		<meta name="description" content="A Free Code Camp Melbourne - A Lightning Talk">
+		<meta name="author" content="A Great Developer">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/fccmelb.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<!--
+				1. SLIDE ONE - This has a tiled background image - remove everything within the section tag besides 'section' to remove this - or just update the img src and details for your own.
+				A clear headline and your twitter handle (or website) on this slide is a great idea, people will often take photos of it in a talk and tweet and post it online!
+			 	-->
+				<section data-background="http://i.imgbox.com/vCfFBnsg.png" data-background-repeat="repeat" data-background-size="800px">
+					<h1>Getting Started with Reveal.JS</h1>
+					<h3>So Now You Have No Excuse</h3>
+					<p>
+						<small>Created by <a href="http://ljkenward.com">LJ Kenward</a> / <a href="http://twitter.com/@ljkenward">@ljkenward</a></small>
+					</p>
+				</section>
+				<!--
+				2. SLIDE TWO - This has a GIPHY! Yay. Introduce yourself, this is the time to own up to being awesome. If you can add in an image in HTML, you can add a giphy! Use <p> tags for standard paragraph style padding. Use H1, H2 etc for titles!
+				-->
+				<section>
+					<img src="https://media.giphy.com/media/xT5LMvTWblNaHIR3dm/giphy.gif"></img>
+					<p>
+						I'm LJ - A Junior Developer working in React at <span style="color:skyblue">Xero</span>, where I help make <span style="color:skyblue">#beautiful</span> cloud accounting software.
+					</p>
+				</section>
+				<!--
+				3. SLIDE THREE - Talk about the problem. Most things, libraries, functions, systems, solve problems. Let the audience know what you are going help them with.
+				-->
+				<section>
+					<h2>Why Use RevealJS?</h2>
+					<h4 class="fragment">So you can do awesome lightning talks at <span style="color:darkgreen">#FCCMELB</span> Meetups!</h4>
+					<ul class="fragment">
+						<li><a href="https://en.wikipedia.org/wiki/MIT_License">MIT License</a></li>
+						<li>Immerse Yourself In Code</li>
+						<li>Host online with Github Pages</li>
+						<li>All of the features!</li>
+					</ul>
+				</section>
+				<!--
+				4. SLIDE FOUR - Helpful quick tips that that user can action. These are generally high level talks, at only 5 minutes, but regardless of length, it's good to give the user hard factual information, not just opinion!
+				-->
+				<section>
+					<h2>Quick Tips</h2>
+					<ul class="fragment">
+						<li class="fragment">Press ESC to enter the slide overview</li>
+						<li class="fragment">Hold down alt(option) click to zoom - handy for code!</li>
+						<li class="fragment">Press B to pause the presentation</li>
+
+					</ul>
+				</section>
+				<!--
+				5. SLIDE FIVE - You can change it up with backgrounds! Keeping in simple is best, the focus is on you and your information, but colours are a good way to make a point, and this can be good if you have a video you want to play full screen within your slide slow presentation, as the video can be a background, or gif!
+				-->
+				<section>
+					<section data-background="darkgreen">
+						<h2>Change it Up With Backgrounds</h2>
+						<p>
+							Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
+						</p>
+					</section>
+					<section data-background="https://hd.unsplash.com/photo-1468245856972-a0333f3f8293">
+					</section>
+					<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
+						<h2>... and GIFs!</h2>
+					</section>
+				</section>
+				<!--
+				6. SLIDE SIX - Most importantly you can have code syntax highlighing - this might no always be the best option, for one line of code, or a small simple block, plain text would work well. The syntax highlighting is great, quickly helps identify different parts of code, and you can click in and edit on the slide and edit the code in the slide view itself!
+				Note** The indenting in the code looks crap here, but the indents are picked up in the code preview on the slide, so they have to be like this to look decent in the presentation. 
+				-->
+				<section>
+					<h2>Pretty Code</h2>
+					<pre><code class="hljs" data-trim contenteditable>
+function linkify( selector ) {
+  if( supports3DTransforms ) {
+
+    var nodes = document.querySelectorAll( selector );
+
+    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
+      var node = nodes[i];
+
+      if( !node.className ) {
+        node.className += ' roll';
+      }
+    }
+  }
+}
+					</code></pre>
+				</section>
+				<!--
+				7. SLIDE SEVEN - Everybody loves a quote. Quotes help make your point, hopefully you are refencing someone in your industry who holds weight and authority. Or who is funny. If you can't be smart be funny. Try to find unqiue quotes. Always include the author of your quote.
+				-->
+				<section>
+					<h2>Quote of the Day</h2>
+					<blockquote cite="http://#">
+						&ldquo;Ever since she was born, LJ has been spurting crap. Literally.&rdquo;
+					</blockquote>
+					<p> LJ's Mum </p>
+				</section>
+				<!--
+				8. SLIDE EIGHT - It's always good practise to mention alternatives, options, or other ways. There is never "one size fits all", you want to give value for people, and knowledge is value!
+				-->
+				<section>
+					<h2>Alternatives</h2>
+					<p class="fragment">
+						Sick of code?</p>
+
+						<img class="fragment" src="https://media.giphy.com/media/kYheYx5xjbkC4/giphy.gif"></img>
+
+						<p class="fragment">It happens. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slides.com" target="_blank">http://slides.com</a>.
+					</p>
+				</section>
+				<!--
+				9. SLIDE NINE - Here's the resources to get started or find out more information.
+				-->
+				<section>
+					<h2>Getting Started</h2>
+					<ul>
+						<li><a href="https://github.com/hakimel/reveal.js">Full Source code &amp; docs</a></li>
+					</ul>
+				</section>
+				<!--
+				10. SLIDE TEN - End strongly!
+				-->
+				<section>
+					<img src="https://media.giphy.com/media/3o7qDEq2bMbcbPRQ2c/giphy.gif"></img>
+					<p class="fragment">
+						<a href="http://twitter.com/@ljkenward">@ljkenward</a>
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
